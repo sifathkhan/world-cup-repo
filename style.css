@@ -318,7 +318,6 @@ hr{
 
 .header-left p{
     font-size: 8px;
-    margin-bottom: -10%;
     justify-content: center;
     
 }
@@ -335,8 +334,9 @@ hr{
     width: 110%;
 }
 .header-right img{
-    width: 230px;
-    height: 210px;
+    width: 240px;
+    height: 190px;
+    padding-left: 5%;
 }
 .middle{
     display: flex;
