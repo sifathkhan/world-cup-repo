@@ -292,9 +292,7 @@ hr{
 }
 
 @media screen and (max-width: 759px){
-    body{
-        /* overflow: hidden; */
-    }
+
     .header-main{
         width: 334px;
         height: 472px;
@@ -346,23 +344,24 @@ hr{
     align-items: center;
     width: 734px;
     margin-top: 70px;
+    padding-left: 18px;
 }
 .middle-left{
     
     background-color: white;
     height: auto;
     width: 100%;
-    margin: 0;
+    margin: ;
     justify-content: space-evenly;
+    
     
 }
 .middle-right{
-    margin-top: 30px;
-    display: grid;
+    
+    width: 330px;
     grid-template-columns: repeat(1, 1fr);
-    grid-gap: 22px;
-    margin-left: 22px;
-    margin-bottom: 50px;
+    grid-gap: 15px
+    
 }
 hr{
     margin-bottom: 10%;
