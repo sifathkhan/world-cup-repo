@@ -14,8 +14,6 @@ body{
 /* --Head Section-- */
 header{
     display: flex;
-    justify-content: center;
-    width: 100%;
 }
 .header-main{
     display: flex;
@@ -27,11 +25,14 @@ header{
     margin-top: 50px;
 
 }
+
 .header-left{
+    
+    padding-left: 106px;
     width: 50%;
 }
 .header-left h2{
-    padding-left: 106px;
+    
     font-size: 70px;
     font-weight: 700;
     color: aliceblue; 
@@ -43,25 +44,30 @@ header{
     font-weight: 400;
     font-size: 20px;
     color: aliceblue;
-    padding-left: 106px;
 }
 .header-left button{
     color: white;
     font-size: medium;
     background-color: rgb(193, 34, 6);
     margin-top: 40px;
-    margin-left: 106px;
-    padding: 16px 25px;
+    padding: 20px 30px;
     border-radius: 15px;
+    
+}
+button:hover{
+    color: #000;
+    background: aqua;
+    transition: all ease-in-out 1s;
+}
+.header-right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    
 }
 .header-right img{
-    padding-left: 24px;
-    position: absolute;
-    width: 587px;
-    height: 613px;
-    left: 801px;
-    top: 83px;
-
+    height: 90%;
 }
 
 /*------------
@@ -88,6 +94,7 @@ middle-main-part
 }
 .btn-1{
     background-color: rgb(227, 8, 8);
+    color: aliceblue;
     font-size: 20px;
     font-weight: 600;
     width: 252px;
@@ -167,6 +174,11 @@ footer{
     align-items: center;
 }
 
+h3{
+    font-size: 40px;
+    font-weight: 600;
+    padding-bottom: 25px;
+}
 hr{
     width: 80%;
     margin-top: 1px;
@@ -180,13 +192,16 @@ hr{
     font-weight: 500;
     margin-top: 50px;
 }
+
 .contact{
     margin-top: 5%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    width: 10%;
     font-size: 40px;
+}
+.contact a{
+    padding: 0 15px;
 }
 @media only screen and (min-width: 760px) and (max-width: 1334px){
     .header-main {
