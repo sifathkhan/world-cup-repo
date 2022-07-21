@@ -52,13 +52,24 @@ header{
     margin-top: 40px;
     padding: 20px 30px;
     border-radius: 15px;
+    transition: all ease-out 0.5s;
     
 }
-button:hover{
+.header-left:hover>.left-btn{
+    transform: scale(1.5);
+    border-radius: 50%;
+    background-image: linear-gradient(yellow, green);
+    font-weight: 700;
+}
+.middle button:hover{
     color: #000;
     background: aqua;
     transition: all ease-in-out 1s;
+    
 }
+
+
+
 .header-right{
     width: 50%;
     height: 100%;
@@ -129,7 +140,6 @@ middle-main-part
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 22px;
-    /* margin-left: 22px; */
     margin-bottom: 106px;
 }
 .blogs{
@@ -162,7 +172,6 @@ middle-main-part
 }
 .time{
     display: flex;
-    /* align-items: center; */
     margin-left: 15px;
     margin-top: 10px;
 
@@ -269,7 +278,6 @@ hr{
         display: grid;
         grid-template-columns: repeat(2,1fr);
         grid-gap: 22px;
-        /* margin-left: 22px; */
         margin-bottom: 50px;
     }
     
@@ -279,7 +287,6 @@ hr{
     width: 131px;
     height: 47px;
     margin: 18px;
-    /* margin-left: 25px; */
     border-radius: 10px;
     font-size: 20px;
     font-weight: 600;
@@ -294,13 +301,7 @@ hr{
 }
 
 @media screen and (max-width: 759px){
-    /* .body, .middle, footer, main{
-        width: 100vw;
-    } */
-main{
-    /* overflow: hidden; */
-    /* width: 100vw; */
-}
+    
     .header-main{
         width: 334px;
         height: 472px;
@@ -308,7 +309,6 @@ main{
         flex-direction: column;
         padding-top: 28px;
         display: flex;
-        /* overflow: hidden; */
     }
     
     .header-left{
@@ -341,7 +341,6 @@ main{
     overflow: hidden;
     margin-top: 18px;
     font-size: 10px;
-    /* width: 110%; */
 }
 .header-right img{
     width: 240px;
@@ -352,7 +351,6 @@ main{
     align-items: center;
     width: 80vw;
     margin-top: 70px;
-    /* padding-left: 18px; */
     
 }
 .middle-left{
@@ -366,7 +364,6 @@ main{
 }
 .middle-right{
     
-    /* width: 330px; */
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 15px;
     
