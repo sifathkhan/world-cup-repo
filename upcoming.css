@@ -218,6 +218,13 @@ hr{
 .contact a{
     padding: 0 15px;
 }
+
+/* -----------------------------
+------------Media---------------
+------------------------------ */
+
+/*-------tab-view--------*/
+
 @media only screen and (min-width: 760px) and (max-width: 1340px){
     .header-main {
         width: 730px;
@@ -290,6 +297,10 @@ hr{
     }
 }
 
+
+/*-------------------
+     Mobile-view
+--------------------*/
 @media screen and (max-width: 759px){
     
     .header-main{

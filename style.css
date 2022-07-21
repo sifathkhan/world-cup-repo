@@ -11,7 +11,9 @@ body{
     font-family: 'Poppins', sans-serif;
 
 }
-/* --Head Section-- */
+/* -------------
+    Head-Section
+----------------- */
 header{
     display: flex;
 }
@@ -181,6 +183,9 @@ middle-main-part
     display: none;
 }
 
+/*---------------
+  Footer-part
+-------------- */
 footer{
     background-color: black;
     color: aliceblue;
@@ -226,7 +231,8 @@ hr{
 ------------Media---------------
 ------------------------------ */
 
-/* tablet */
+/*-------tab-view--------*/
+
 @media only screen and (min-width: 760px) and (max-width: 1340px){
     .header-main {
         width: 730px;
@@ -300,6 +306,9 @@ hr{
     }
 }
 
+/*-------------------
+     Mobile-view
+--------------------*/
 @media screen and (max-width: 759px){
     
     .header-main{
